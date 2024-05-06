@@ -13,7 +13,8 @@ Neural networks
 Huge number of these files are accredited to Yang Chen and built off his existing FFT solver for this problem. His GitHub repository is https://github.com/yang-chen-2022/fftpermeability-StokesBrinkman.
 Extra files on top of that include:
 - dev_FNO_results.py - FNO solver using the FFT ground truth images and results for comparison to produce velocity maps and the peremability tensors. (Yang Chen's work)
-- multiScaleFlowCNN.py - Main folder I worked on and constructed to feed off the FNO results (e.g R64/resu folder with 800 velocity maps) to obtain K predictions.
+- multiScaleFlowCNN.py - Main file I worked on (CNN folder has more python CNN files) and constructed to feed off the FNO results (e.g R64/resu folder with 800 velocity maps) to obtain K predictions.
+- plotting.py - plotting the K tensor predictions versus ground truth from multiScaleCNN.py
 - CNN folder including python files such as MNISTCNN.py and meanVelocityCNN.py, which test out the capability of the CNN and proof of concept for the MNIST digits and fashion datasets and random 28 x 28 velocity maps --> K. There is also a velocityDifferentiationCNN.py which models the 2 x 2 Hessian matrix for given 2 x 2 velocity matrix (x,y) inputs
 
 
