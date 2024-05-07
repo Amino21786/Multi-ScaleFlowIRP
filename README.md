@@ -17,7 +17,7 @@ Extra files on top of that include:
 - multiScaleFlowCNN.py - Main file I worked on (CNN folder has more python CNN files) and constructed to feed off the FNO results (e.g R64/resu folder with 800 velocity maps) to obtain K predictions.
 - plotting.py - plotting the K tensor predictions versus ground truth from multiScaleCNN.py
 - CNN folder including python files such as MNISTCNN.py and meanVelocityCNN.py, which test out the capability of the CNN and proof of concept for the MNIST digits and fashion datasets and random 28 x 28 velocity maps --> K. There is also a velocityDifferentiationCNN.py which models the 2 x 2 Hessian matrix for given 2 x 2 velocity matrix (x,y) inputs
-
+Note the data folders such as R64, R128 and dataCNN are not uploaded here due to the size of the folders exceeding the GitHub size limit. They are available upon request.
 
 ## Libraries
 In this project, a number of Python libraries were used for model construction, mathematical calculations, plotting and data manipulation (including the standard numpy, matplotlib, pandas etc) 
