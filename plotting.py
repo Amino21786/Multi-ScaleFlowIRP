@@ -1,13 +1,15 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 
-Kpred = np.load('Kspred.npy', allow_pickle=True)
-Ktrue = np.load('Kstrue.npy', allow_pickle=True)
+# Extracting the data from the folder
+Kpred = np.load('dataCNN/Kspred.npy', allow_pickle=True)
+Ktrue = np.load('dataCNN/Kstrue.npy', allow_pickle=True)
 #Ktrue = Ktrue[700:]
 print(Kpred.shape)
 print(Ktrue.shape)
 #Ktrue = (Ktrue - np.mean(Ktrue, axis =0))/np.std(Ktrue, axis =0)
 
+# Mean and variance between the predictions and ground truth
 print("Mean of predictions:", np.mean(Kpred, axis = 0))
 print("Variance of predictions:", np.var(Kpred, axis = 0))
 print("Mean of ground truth:", np.mean(Ktrue, axis = 0))
