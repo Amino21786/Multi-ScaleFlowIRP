@@ -1,4 +1,5 @@
 # IRP Multi-Scale flow: Neural networks strand 
+This project was part of my 1st year MRes of statistical applied mathematics at the University of Bath (SAMBa) PhD programme. Part of a wider group project based on building off the work of [[1]](#1).
 # Multi-scale porous media flow
 This folder consists of sample images of fibres in a composite material (64 x 64, 128 x 128, R64 and R128 respectively) with different Brinkman terms and model python files to extract the velocity maps and permeability tensors (K).
 
@@ -51,7 +52,11 @@ Also great thanks to the SAMBa IRP group team of Dr James Foster, Dr Eike Muelle
 This project was part of my 1st year MRes of statistical applied mathematics at the University of Bath (SAMBa) PhD programme.
 
 
-
+## References
+<a id="1">[1]</a> 
+Dijkstra, E. W. (1968). 
+Go to statement considered harmful. 
+Communications of the ACM, 11(3), 147-148.
 
 
 
