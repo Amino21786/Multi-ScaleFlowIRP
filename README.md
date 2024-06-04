@@ -1,7 +1,7 @@
 # IRP Multi-Scale flow: Neural networks strand 
-This project was part of my 1st year MRes of statistical applied mathematics at the University of Bath (SAMBa) PhD programme. Part of a wider group project based on building off the work of [[1]](#1).
+This project was part of my 1st year MRes of statistical applied mathematics at the University of Bath (SAMBa) PhD programme. Part of a wider group project based on building off the work of Chen (2022)[[1]](#1) on multi-scale flow through porous media.
 # Multi-scale porous media flow
-This folder consists of sample images of fibres in a composite material (64 x 64, 128 x 128, R64 and R128 respectively) with different Brinkman terms and model python files to extract the velocity maps and permeability tensors (K).
+This folder consists of sample images of fibres in a composite material (64 x 64, 128 x 128, R64 and R128 respectively) with different Brinkman terms and model Python files to extract the velocity maps and permeability tensors (K).
 
 Neural networks
 - Fourier neural operator (FNO)
@@ -54,9 +54,7 @@ This project was part of my 1st year MRes of statistical applied mathematics at 
 
 ## References
 <a id="1">[1]</a> 
-Dijkstra, E. W. (1968). 
-Go to statement considered harmful. 
-Communications of the ACM, 11(3), 147-148.
+Chen, Y. (2023). High‐performance computational homogenization of Stokes–Brinkman flow with an Anderson‐accelerated FFT method. International Journal for Numerical Methods in Fluids, 95(9), 1441-1467.
 
 
 
